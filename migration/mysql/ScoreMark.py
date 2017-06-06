@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from mysql.TimeCount import TimeCount;
-from mysql._mongo_db_ import *
+from migration.mysql.TimeCount import TimeCount
+from migration.mysql._mongo_db_ import *
 
 from migration.mysql._mysql_db_ import *
 
